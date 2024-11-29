@@ -1,3 +1,4 @@
 all:
-	clang main.c -o main -lddnet_protocol
-	./main
+	mkdir -p bin
+	clang main.c -o ./bin/main -lddnet_protocol
+	./bin/main
